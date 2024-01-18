@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image:
+	linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(4.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+}
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;
+}
+h1{
+	color: #fff;
+	font-size: 100px;
+
+}
+p{
+	line-height: 20px;
+	color: pink;
+	font-size: 25px;
+	font-family: Baskerville Old Face;
+
+}
+button{
+	width: 180px;
+	color: #000;
+	font-size: 12px;
+	padding: 12px 0;
+	background: #fff;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
+}
+.card{
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: url(4.jpg);
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+.card1{
+	background-image: url(2.jpg);
+}
+.card2{
+	background-image: url(blush on.jpg);
+}
+.card3{
+	background-image: url(eye liner.jpg);
+}
+.card4{
+	background-image: url(3.jpg);
+}
+
+.card:hover{
+	transform: translateY(-50px);
+}
+h5{
+	color: pink;
+	text-shadow: 0 0 5px #999;
+}
+.card p{
+	text-shadow: 0 0 20px #999;
+	font-size: 10px;
+}
+.items{
+	display: inline-flex;
+	grid-template-columns: repeat(5, 1fr);
+	padding: 20px 10px;
+	grid-column-gap: 10px;
+	grid-row-gap: 20px;
+	
+}
+.items img{
+	width: 100%;
+	height: 90%;
+	object-fit: img;
+	transition: 0.2 ease;
+}
+.item:hover{
+	transform: translateY(-50px);
+}
+table{
+	height: 52PX;
+	width: 50%;
+	margin: 20px 1.16%;
+	float: center;
+	overflow: hidden;
+	font-size: 30px;
+
+}
+.table td{
+	font-family: Gabriola;
+	font-style: bold;
+	text-align: center;
+
+
+}
+
+.Address p{
+	color: pink;
+	text-align: center;
+	height: 52PX;
+	width: 50%;
+	overflow: hidden;
+	font-size: 28px;
+}
